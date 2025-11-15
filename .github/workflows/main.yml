@@ -46,7 +46,7 @@ jobs:
       
       - name: Log to MLflow and upload to GCS
         env:
-          MLFLOW_TRACKING_URI: http://34.69.5.74:8100
+          MLFLOW_TRACKING_URI: http://34.42.200.67:8150
           MLFLOW_EXPERIMENT_NAME: iris_poison_experiment
           BUCKET_NAME: mlops-week4-ga
         run: |
