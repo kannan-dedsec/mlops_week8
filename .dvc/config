@@ -1,0 +1,4 @@
+[core]
+    remote = iris_poison
+['remote "iris_poison"']
+    url = gs://mlops-week4-ga
