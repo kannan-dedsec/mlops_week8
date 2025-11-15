@@ -52,6 +52,11 @@ jobs:
         run: |
           python mlflow_log.py
 
+      - name: list files
+        run: |
+          echo "Files present:"
+          ls -al
+
      
       - name: Run pytest and generate report
         run: |
