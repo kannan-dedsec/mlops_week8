@@ -2,5 +2,5 @@
   "max_iter": 100,
   "solver": "lbfgs",
   "random_state": 42,
-  "poison_level": 5
+  "poison_level": 50
 }
