@@ -57,7 +57,7 @@ jobs:
         run: |
           mkdir -p reports
           echo "## Test Report" > reports/report.md
-          metrics.txt > pytest_output.txt || true
+          metrics.txt >> pytest_output.txt || true
           sed 's/^/  /' pytest_output.txt >> reports/report.md
 
     
